@@ -19,6 +19,7 @@ public class PostController {
         List<Post> allPosts = new ArrayList<Post>();
         allPosts.add(post1);
         allPosts.add(post2);
+        // hi
 
 
         model.addAttribute("posts", allPosts);
